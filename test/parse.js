@@ -83,3 +83,21 @@ test('18 E. Main St.', expect({
   "street": "E. Main St",
   "regions": []
 }));
+
+test('849 Road 6, Powell, WY', expect({
+	"number": "849",
+	"street": "Road 6",
+	"regions": ["Powell"]
+}))
+
+test('1055 Lane 11H, Powell, WY', expect({
+	"number": "1055",
+	"street": "Lane 11H",
+	"regions": ["Powell"]
+}));
+
+test('584 Lane 8 1/2, Powell, WY', expect({
+	"number": "584",
+	"street": "Lane 8 1/2",
+	"regions": ["Powell"]
+}));
