@@ -142,7 +142,7 @@ proto.extract = function(fieldName, regexes) {
         } // if..else
 
         value = lookups[rgxIdx] || match[1];
-      } else if (fieldName === 'state' && value === undefined) {
+      } else if ((fieldName === 'state' || fieldName === 'unit') && value === undefined) {
         var matchMultiplePart = false;
         var spacesInMatch = regexes[rgxIdx].source.split('\\s').length;
         if (spacesInMatch > 1) {
