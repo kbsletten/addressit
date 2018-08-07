@@ -57,6 +57,7 @@ var streetRegexes = compiler([
   '(PARKWAY|PKWY)',       // PARKWAY / PKWY
   'PL(ACE)?',             // PLACE / PL
   'PROM(ENADE)?',         // PROMENADE / PROM
+  'REAL',                 // REAL
   'RES(ERVE)?',           // RESERVE / RES
   // 'RI?DGE',               // RIDGE / RDGE
   'RISE',                 // RISE
