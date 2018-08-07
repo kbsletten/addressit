@@ -106,7 +106,7 @@ module.exports = function(text, opts) {
 
     // extract the unit
     .extract('unit', [
-        (/^(?:\#|APT|APARTMENT)\s?(\d+)/),
+        (/^(?:\#|APT|APARTMENT)\s*(\w+)/i),
         (/^(\d+)\/(.*)/)
     ])
 
