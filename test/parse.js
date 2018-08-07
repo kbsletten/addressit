@@ -83,3 +83,9 @@ test('18 E. Main St.', expect({
   "street": "E. Main St",
   "regions": []
 }));
+
+test('3750 El Camino Real Apt E4', expect({
+  "unit": "E4",
+  "number": "3750",
+  "street": "El Camino Real",
+}));
